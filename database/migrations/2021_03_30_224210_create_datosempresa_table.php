@@ -21,6 +21,8 @@ class CreateDatosempresaTable extends Migration
             $table->string('urllogo');
             $table->string('slogan');
             $table->string('url_curriculum');
+            $table->string('icon_mision');
+            $table->string('icon_vision');
             $table->timestamps();
         });
     }

@@ -10,7 +10,7 @@
 {{-- Favicon --}}
 {{-- Estilos --}}
 <link rel="stylesheet" href="css/style.css">
-<body class="bg-gray-300" >
+<body>
     {{-- Header --}}
     {{-- nav --}}
 
