@@ -19,7 +19,7 @@
             <div class="flex items-center flex-shrink-0 text-white mr-6" >
                 
                 <a href="/" class="class">
-                    <img class="h-35 w-60 ml-8 self-center" src="{{url('images/JORRIFADI_LOGO.png')}}"/>
+                    <img class="h-35 w-60 ml-40 self-center" src="{{url('images/JORRIFADI_LOGO.png')}}"/>
                 </a>
             </div>
     

@@ -43,8 +43,9 @@
       <div class="relative h-32 w-90 ">
         <div class="absolute bottom-15 right-0 h-16 w-90 ">
          <a href="recursos/@foreach ($datos as $dato){{$dato->url_curriculum}}@endforeach" target="_blank"><button class="font-bold uppercase px-8 py-3 rounded bg-yellow-500 hover:bg-red-700 hover:text-white max-w-max shadow-sm hover:shadow-lg" >CURRICULUM</button></a>
-          <button class="font-bold border-2 border-white uppercase px-8 py-3 rounded hover:bg-red-700 hover:text-white max-w-max shadow-sm hover:shadow-lg">CONÓCENOS</button>
-        </div>
+          <a href="{{route('nosotros')}}"><button class="font-bold border-2 border-white uppercase px-8 py-3 rounded hover:bg-red-700 hover:text-white max-w-max shadow-sm hover:shadow-lg">CONÓCENOS</button>
+          </a>
+          </div>
       </div>
     </div>
 
@@ -217,7 +218,7 @@
       
 
     <div class="relative py-10 text-center">
-      <a href="#" class="uppercase bg-yellow-500 inline-block px-9 py-3 rounded text-blue-50 max-w-max shadow-sm hover:shadow-lg">Ver más</a>
+      <a href="{{route('servicios')}}" class="uppercase bg-yellow-500 inline-block px-9 py-3 rounded text-blue-50 max-w-max shadow-sm hover:shadow-lg">Ver más</a>
   </div>
          
   </div>
@@ -239,11 +240,11 @@
   <div class="flex ">
     
     <div class="contents">
-      <div class="flex-3"> <img src= "images/{{$datoscliente1->url_imagen}}"alt="hotel-maroma"></div>
-      <div class="flex-3"> <img src= "images/{{$datoscliente2->url_imagen}}" alt="hotel-kaua"></div>
-      <div class="flex-3"> <img src= "images/{{$datoscliente3->url_imagen}}" alt="hotel-akumal"></div>
-      <div class="flex-3"> <img src= "images/{{$datoscliente4->url_imagen}}" alt="hotel-came"></div>
-      <div class="flex-3"> <img src= "images/{{$datoscliente5->url_imagen}}" alt="hotel-grupo-gw"></div>
+      <div class="flex-3"> <img src= "iconos/{{$datoscliente1->url_imagen}}"alt="hotel-maroma"></div>
+      <div class="flex-3"> <img src= "iconos/{{$datoscliente2->url_imagen}}" alt="hotel-kaua"></div>
+      <div class="flex-3"> <img src= "iconos/{{$datoscliente3->url_imagen}}" alt="hotel-akumal"></div>
+      <div class="flex-3"> <img src= "iconos/{{$datoscliente4->url_imagen}}" alt="hotel-came"></div>
+     
     </div>
   </div>
   

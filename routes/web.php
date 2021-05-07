@@ -17,11 +17,14 @@ use App\Http\Controllers\ServicesController;
 |
 */
 
+Route::get('/panel', function () {
+    return view('auth.login');
+    
+});
 
-
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
+Route::middleware(['auth:sanctum', 'verified'])->get('/dash', function () {
+    return view('dash.index');
+})->name('dash');
 
 
 Route::get('/', HomeController::class)->name('index');
